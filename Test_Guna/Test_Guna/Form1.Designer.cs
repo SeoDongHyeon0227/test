@@ -37,11 +37,12 @@ namespace Test_Guna
             this.Value_Bar5 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.Value_Bar6 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.Value_Bar7 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.Value_Bar2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Value_Bar1
             // 
+            this.Value_Bar1.Animated = true;
+            this.Value_Bar1.AnimationSpeed = 0.3F;
             this.Value_Bar1.FillColor = System.Drawing.Color.DimGray;
             this.Value_Bar1.FillOffset = 50;
             this.Value_Bar1.FillThickness = 10;
@@ -49,6 +50,7 @@ namespace Test_Guna
             this.Value_Bar1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Value_Bar1.Location = new System.Drawing.Point(12, 12);
             this.Value_Bar1.Name = "Value_Bar1";
+            this.Value_Bar1.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.SolidTransition;
             this.Value_Bar1.ProgressColor = System.Drawing.Color.Aqua;
             this.Value_Bar1.ProgressColor2 = System.Drawing.Color.DarkBlue;
             this.Value_Bar1.ProgressEndCap = System.Drawing.Drawing2D.LineCap.Round;
@@ -73,7 +75,6 @@ namespace Test_Guna
             // 
             // Value_Bar2
             // 
-           
             this.Value_Bar2.FillColor = System.Drawing.Color.DimGray;
             this.Value_Bar2.FillOffset = 50;
             this.Value_Bar2.FillThickness = 10;
@@ -92,7 +93,6 @@ namespace Test_Guna
             this.Value_Bar2.ShowPercentage = true;
             this.Value_Bar2.Size = new System.Drawing.Size(150, 150);
             this.Value_Bar2.TabIndex = 2;
-            
             // 
             // Value_Bar3
             // 
@@ -216,7 +216,6 @@ namespace Test_Guna
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Value_Bar2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

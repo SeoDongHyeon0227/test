@@ -15,6 +15,7 @@ namespace Test_Guna
     public partial class Form1 : Form
     {
         // 네트워크 연결 정보 직접 대입
+        //다른 DB로 테스트 시, 주소 바꿔주기
         string strConn = "Data Source=(DESCRIPTION=(ADDRESS_LIST=" +
             "(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.56.1)(PORT=1521)))" +
             "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)))" +
