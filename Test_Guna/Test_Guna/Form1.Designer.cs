@@ -29,6 +29,7 @@ namespace Test_Guna
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Value_Bar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.button1 = new System.Windows.Forms.Button();
             this.Value_Bar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
@@ -37,11 +38,11 @@ namespace Test_Guna
             this.Value_Bar5 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.Value_Bar6 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.Value_Bar7 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // Value_Bar1
             // 
-            this.Value_Bar1.Animated = true;
             this.Value_Bar1.AnimationSpeed = 0.3F;
             this.Value_Bar1.FillColor = System.Drawing.Color.DimGray;
             this.Value_Bar1.FillOffset = 50;
@@ -199,6 +200,10 @@ namespace Test_Guna
             this.Value_Bar7.Size = new System.Drawing.Size(150, 150);
             this.Value_Bar7.TabIndex = 4;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -230,6 +235,7 @@ namespace Test_Guna
         private Guna.UI2.WinForms.Guna2CircleProgressBar Value_Bar5;
         private Guna.UI2.WinForms.Guna2CircleProgressBar Value_Bar6;
         private Guna.UI2.WinForms.Guna2CircleProgressBar Value_Bar7;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

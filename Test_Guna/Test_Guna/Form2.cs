@@ -28,6 +28,7 @@ namespace Test_Guna
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             string[] text_names =
             {
                 "Add_a", "Add_b", "Add_c", "Add_d", "Add_e", "Add_f", "Add_g"
@@ -44,7 +45,7 @@ namespace Test_Guna
                 txt.Add((TextBox)ccc[0]);
             }
 
-            cmd.CommandText = "select * from (select * from ingredient order by id) where RowNum < 8";
+            cmd.CommandText = "select * from ingredient where RowNum< 8 order by id";
 
             // 결과 리더 객체를 리턴
             OracleDataReader rdr = cmd.ExecuteReader();

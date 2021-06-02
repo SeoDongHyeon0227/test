@@ -13,3 +13,17 @@ C:\Users\Admin\source\repos\05.27\Test_Guna\Test_Guna\obj\Debug\Test_Guna.exe
 C:\Users\Admin\source\repos\05.27\Test_Guna\Test_Guna\obj\Debug\Test_Guna.pdb
 C:\Users\Admin\source\repos\05.27\Test_Guna\Test_Guna\bin\Debug\MetroFramework.dll
 C:\Users\Admin\source\repos\05.27\Test_Guna\Test_Guna\obj\Debug\Test_Guna.Form2.resources
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.csprojAssemblyReference.cache
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.Form1.resources
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.Form2.resources
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.Properties.Resources.resources
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.csproj.GenerateResource.cache
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.exe
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.pdb
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\bin\Debug\Test_Guna.exe.config
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\bin\Debug\Test_Guna.exe
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\bin\Debug\Test_Guna.pdb
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Admin\Code\test\Test_Guna\Test_Guna\obj\Debug\Test_Guna.csproj.CopyComplete

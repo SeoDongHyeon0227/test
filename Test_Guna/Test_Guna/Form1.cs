@@ -17,9 +17,9 @@ namespace Test_Guna
         // 네트워크 연결 정보 직접 대입
         //다른 DB로 테스트 시, 주소 바꿔주기
         string strConn = "Data Source=(DESCRIPTION=(ADDRESS_LIST=" +
-            "(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.56.1)(PORT=1521)))" +
+            "(ADDRESS=(PROTOCOL=TCP)(HOST=220.69.249.218)(PORT=1521)))" +
             "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)))" +
-            ";User Id=hr;Password=hr;";
+            ";User Id=system;Password=1234;";
 
         // 오라클 연결
         OracleConnection conn;
@@ -45,7 +45,7 @@ namespace Test_Guna
             while (rdr1.Read())
             {
                 int VOL = rdr1.GetInt32(0);
-                Value_Bar1.Value = VOL;
+                //Value_Bar1.Value = VOL;
             }
 
             cmd.CommandText = "select VOL from INGREDIENT where ID = 1002";
@@ -118,6 +118,10 @@ namespace Test_Guna
             oraclesearch();
             
         }
-        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
